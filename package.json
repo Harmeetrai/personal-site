@@ -21,7 +21,7 @@
     "clean": "gatsby clean",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "deploy": "gatsby build && gh-pages -b gh-pages -d public -m 'GitHub Pages Auto Deploy'"
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
